@@ -12,7 +12,7 @@ connectDB();
 app.use(cors());
 app.use(express.json());
 
-app.get('/test', (req, res) => {
+app.get('/', (req, res) => {
   res.send('API WORKING...');
 });
 
